@@ -93,9 +93,11 @@ async Task CreateCsv(Dictionary<string, string> hashtable)
 {
     var csv = new StringBuilder();
 
+    csv.AppendLine("sep=^");
+
     foreach (var item in hashtable)
     {
-        var newLine = string.Format("{0}#:#:#{1}", item.Key, item.Value);
+        var newLine = string.Format("{0}^{1}", item.Key, item.Value);
 
         csv.AppendLine(newLine);
     }

@@ -2,7 +2,7 @@
   "profiles": {
     "ArchiveOrgScrapper": {
       "commandName": "Project",
-      "commandLineArgs": "https://archive.org/download/sony_playstation2_numberssymbols,https://archive.org/download/sony_playstation2_a,https://archive.org/download/sony_playstation2_b"
+      "commandLineArgs": "https://archive.org/download/redump.dc.revival"
     }
   }
 }
